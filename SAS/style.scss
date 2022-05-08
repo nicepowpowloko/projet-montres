@@ -24,7 +24,7 @@
         body {
             font-family: 'Montserrat Alternates', sans-serif;
             background: rgb(17, 17, 17);
-            height: 150vh;
+            
         }
         
         nav {
@@ -32,7 +32,7 @@
             background: rgb(15, 15, 15);
             position: fixed;
             z-index: 2;
-            border: 2px solid rgba(242, 180, 10, 0.947);
+            
         }
         
         .nav-elements {
@@ -169,29 +169,28 @@
         }
         
         .richard {
-            border-top: cyan solid 4px;
+            border-top: rgb(224, 14, 14)4px solid;
             font-size: 1.5em;
-            background: rgb(123, 26, 148);
+            background: rgb(13, 13, 13);
             width: 18vw;
-        
             letter-spacing: 0.1em;
         }
         
         .richard  a {
-            color: rgb(0, 255, 255);
+            color: rgb(224, 14, 14);
             font-family: 'Bebas Neue', cursive;
         }
         
         .omega {
             border-top: rgb(246, 164, 0) solid 4px;
             font-size: 1.5em;
-            background: cyan;
+            background: rgb(0, 0, 0);
             width: 18vw;
             letter-spacing: 0.1em;
         }
         
         .omega a {
-            color: rgb(123, 26, 148);
+            color: rgb(239, 234, 240);
             font-family: 'Bebas Neue', cursive;
         }
         
@@ -219,9 +218,6 @@
         }
         
     
-        
-
-        
         /* debut card */
         
         .flip-card {
@@ -263,27 +259,17 @@
             border: rgb(6, 38, 246) 4px solid;
         }
         
-        .frontcard .anima {
-            border-top: solid cyan 2px;
-            border-left: cyan solid 2px;
-            border-bottom: rgb(123, 26, 148) solid 2px;
-            border-right: solid rgb(123, 26, 148) 2px;
+        .frontcard .richard {
+          border: 4px solid rgb(224, 14, 14) ;
         }
         
-        .backcard .anima1 {
-            border-bottom: solid cyan 2px;
-            border-right: cyan solid 2px;
-            border-top: rgb(123, 26, 148) solid 2px;
-            border-left: solid rgb(123, 26, 148) 2px;
         
+        .frontcard .omega {
+            border: rgb(246, 164, 0) solid 4px;
         }
-        
-        .frontcard .mcfly {
-            border-bottom: solid cyan 2px;
-            border-right: cyan solid 2px;
-            border-top: rgb(123, 26, 148) solid 2px;
-            border-left: solid rgb(123, 26, 148) 2px;
-            ;
+
+        .backard .omega1{
+            border: rgb(246, 164, 0) solid 4px;
         }
         
         .backcard {
@@ -307,8 +293,7 @@
             transform: rotateY(180deg);
         }
         
-        
-        /*PASTOUCHE*/
+    
         
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:600;);
         
@@ -331,45 +316,8 @@
             -webkit-transition: all 0.35s ease;
             transition: all 0.35s ease;
         }
-        
-        .snip1573:before,
-        .snip1573:after {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: linear-gradient(80deg, rgb(123, 26, 148), cyan);
-            ;
-            -webkit-transition: all 0.40s ease;
-            transition: all 0.40s ease;
-            border-left: 10px solid rgb(255, 255, 255);
-            border-right: 10px solid rgb(255, 255, 255);
-            content: '';
-            opacity: 0.9;
-            z-index: 1;
-        }
-        
-        .otp3:before,
-        .otp3:after {
-            background: linear-gradient(80deg, rgb(123, 26, 148), cyan);
-        }
-        
-        
-        .squezi2:before,
-        .squezi2:after {
-            background: linear-gradient(80deg, cyan, rgb(123, 26, 148));
-        }
-        
-        
-        
-        .lolilol:before,
-        .lolilol:after {
-            background: linear-gradient(80deg, cyan, rgb(123, 26, 148));
-        }
-        
-        
-        
+      
+    
         .snip1573:before {
             -webkit-transform: skew(45deg) translateX(-155%);
             transform: skew(45deg) translateX(-155%);
@@ -401,7 +349,7 @@
         .snip1573 h3 {
             background-color: rgb(255, 255, 255);
         
-            color: rgb(123, 26, 148);
+            color: rgb(0, 0, 0);
             font-size: 1em;
             font-weight: 600;
             letter-spacing: 1px;
@@ -444,7 +392,608 @@
             opacity: 1;
         }
         
+        /* fin des cards */
     
-            
+   footer{
+       background-color: #bbb3ae;
+       width: 100%;
+      height: 25vh;
+      display: flex;
+      justify-content: center;
+    
+   }         
            
  
+
+
+  /*  FIN PAGE ACC */
+
+
+
+
+  /* DÉBUT PAGE ROLEX */
+
+
+
+
+  nav {
+    width: 100%;
+    background: rgb(15, 15, 15);
+    position: sticky;
+    z-index: 2;
+    
+}
+
+.nav-elements1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+}
+
+.nav-elements1 a {
+
+    color:#006039;
+    text-decoration: none;
+}
+
+
+.nav-links1 {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    right: 0vw;
+    position: relative;
+    width: 55%;
+    z-index: 1;
+    transition: 0.8s ease
+}
+
+.nav-links1 li a {
+    transition: 0.3s ease;
+}
+
+.nav-links1 li a:hover {
+    color: rgb(245, 245, 245);
+
+}
+
+.text1 {
+  width: auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border:#006039 2px solid;
+    
+}
+     
+
+
+
+#break{
+    margin-top: 15vh;
+    border-top:#006039 3px solid;
+    border-bottom: #eee3e7 3px solid ;
+   width: 80%;
+    
+}
+#breakbis{
+    margin-top: 15vh;
+    border-top:#006039 3px solid;
+    border-bottom: #eee3e7 3px solid ;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    
+}
+.titrehr{
+    position: relative;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    top: 15vh;
+    color:#006039;
+    font-size: 2em;
+    letter-spacing: 3em;
+    
+}
+.titrehrbis{
+    position: relative;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    top: 15vh;
+    color:#006039;
+    font-size: 2em;
+    letter-spacing: 2em;
+}
+.titrehrbis h1{
+    display: flex;
+}
+.titrehr h1{
+    display: flex;
+    
+}
+.s2{
+    color:#006039;
+
+}
+.w{
+    color:#006039;
+ 
+    
+}
+.a{
+    color:#006039;
+
+    
+}
+.s1{
+    color:#006039;
+
+}
+.cartesweet img{
+height: 80vh;
+width: 30vw;
+}
+.cartesweetbis img{
+height: 80vh;
+width: 30vw;
+}
+.all{
+    position: absolute;
+top: 210vh;
+display: flex;
+justify-content: center;
+align-content: space-around;
+flex-direction: column;
+align-items: center;
+
+}
+.allbis{
+    position: absolute;
+
+display: flex;
+justify-content: center;
+align-content: space-around;
+flex-direction: column;
+align-items: center;
+
+}
+.cartesweet{
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cartesweetbis{
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.sweet0{
+    
+    color: rgb(251, 250, 250);
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+    
+}
+.produit{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+}
+.buyp{
+    margin-top: 1.1vh;
+    color: #fcfeff;
+}
+.prix{
+    color: #edf6f3;
+    font-size: 1.1em;
+}
+.buy{
+    background-color:#006039;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet0 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #e1e7ed;
+}
+.sweet1{
+    
+    color: black;
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+}
+.produit1{
+    font-size: 1.3em;
+    color: rgb(243, 242, 242);
+}
+.buyp1{
+    margin-top: 1.1vh;
+    color: #f2f6fa;
+}
+.prix1{
+    color: #edf6f3;
+    font-size: 1.1em;
+}
+.buy1{
+    background-color:#006039;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet1 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #f1f3f5;
+}
+
+.sweet2{
+    
+    color: black;
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+}
+.produit2{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    
+}
+.buyp2{
+    margin-top: 1.1vh;
+    color: #f8fafc;
+}
+.prix2{
+    color: #edf6f3;
+    font-size: 1.1em;
+
+}
+.buy2{
+    background-color:#006039;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet2 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #efefef;
+}
+.all{
+    position: absolute;
+    top: 210vh;
+   }
+
+
+
+/* FIN PAGE ROLEX  */
+
+
+
+/* DEBUT PAGE FOSSIL  */
+
+   .body3{
+       background-color: #bbb3ae;
+   }
+   .nav3 {
+    width: 100%;
+    background: #bbb3ae;
+    position: sticky;
+    z-index: 2;
+    
+}
+
+.nav-elements3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 10vh;
+}
+
+.nav-elements3 a {
+
+    color:rgb(6, 38, 246);
+    text-decoration: none;
+}
+
+
+.nav-links3 {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    right: 0vw;
+    position: relative;
+    width: 55%;
+    z-index: 1;
+    transition: 0.8s ease
+}
+
+.nav-links3 li a {
+    transition: 0.3s ease;
+}
+
+.nav-links3 li a:hover {
+    color: rgb(245, 245, 245);
+
+}
+
+.text3 {
+  width: auto;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border:rgb(6, 38, 246) 2px solid;
+    
+}
+     
+#break3{
+    margin-top: 15vh;
+    border-top:rgb(6, 38, 246)9 3px solid;
+    border-bottom: #010101 3px solid ;
+   width: 80%;
+    
+}
+#breakbis3{
+    margin-top: 15vh;
+    border-top:rgb(6, 38, 246) 3px solid;
+    border-bottom: #eee3e7 3px solid ;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    
+}
+.titrehr{
+    position: relative;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    top: 15vh;
+    color:#006039;
+    font-size: 2em;
+    letter-spacing: 3em;
+    
+}
+.titrehrbis{
+    position: relative;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+    top: 15vh;
+    color:#006039;
+    font-size: 2em;
+    letter-spacing: 2em;
+}
+.titrehrbis h1{
+    display: flex;
+}
+.titrehr h1{
+    display: flex;
+    
+}
+.s3{
+    color: rgb(6, 38, 246);
+}
+
+.E3{
+    color: rgb(6, 38, 246);
+}
+
+.t3{
+    color: rgb(6, 38, 246);
+}
+
+.s23{
+    color:rgb(6, 38, 246);
+
+}
+.w3{
+    color:rgb(6, 38, 246);
+ 
+    
+}
+.a3{
+    color:rgb(6, 38, 246);
+
+    
+}
+.s13{
+    color:rgb(6, 38, 246);
+
+}
+.cartesweet img{
+height: 80vh;
+width: 30vw;
+}
+.cartesweetbis img{
+height: 80vh;
+width: 30vw;
+}
+.all{
+    position: absolute;
+top: 210vh;
+display: flex;
+justify-content: center;
+align-content: space-around;
+flex-direction: column;
+align-items: center;
+
+}
+.allbis{
+    position: absolute;
+
+display: flex;
+justify-content: center;
+align-content: space-around;
+flex-direction: column;
+align-items: center;
+
+}
+.cartesweet{
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cartesweetbis{
+    height: 40vh;
+    margin-top: 5vh;
+    margin-left: 1vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.sweet0{
+    
+    color: rgb(251, 250, 250);
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+    
+}
+.produit3{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+}
+.buyp3{
+    margin-top: 1.1vh;
+    color: #fcfeff;
+}
+.prix3{
+    color: #edf6f3;
+    font-size: 1.1em;
+}
+.buy3{
+    background-color:rgb(6, 38, 246);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet0 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #e1e7ed;
+}
+.sweet1{
+    
+    color: black;
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+}
+.produit13{
+    font-size: 1.3em;
+    color: rgb(243, 242, 242);
+}
+.buyp13{
+    margin-top: 1.1vh;
+    color: #f2f6fa;
+}
+.prix13{
+    color: #edf6f3;
+    font-size: 1.1em;
+}
+.buy13{
+    background-color:rgb(6, 38, 246);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet1 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #f1f3f5;
+}
+
+.sweet2{
+    
+    color: black;
+    font-family: 'Bebas Neue', cursive; 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    margin: 15px;
+}
+.produit23{
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    
+}
+.buyp23{
+    margin-top: 1.1vh;
+    color: #f8fafc;
+}
+.prix23{
+    color: #edf6f3;
+    font-size: 1.1em;
+
+}
+.buy23{
+    background-color:rgb(6, 38, 246);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.sweet2 a{
+    text-decoration: none;
+    height: 5vh;
+    width: 100%;
+    color: #efefef;
+}
+.all{
+    position: absolute;
+    top: 210vh;
+   }
