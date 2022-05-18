@@ -943,4 +943,9 @@ nav {
 .all {
   position: absolute;
   top: 210vh;
+}
+
+/* REACT */
+#like_button_container {
+  color: rgb(253, 0, 169);
 }/*# sourceMappingURL=style.css.map */
